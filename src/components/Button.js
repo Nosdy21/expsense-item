@@ -1,12 +1,12 @@
 import React from 'react';
 import './ExpenseItem.css';
 
-
-function Button(opis) {
+const Button = ({text}) => {
+    const onClick = () => {}
     return (
-        <button onClick={opis} className="Button">
-            Više
-        </button>
-    );
-}
+    <button 
+    onClick = {onClick} 
+    className = 'btn'>Click</button>
+    )}
+    <Description />
 export default Button;
